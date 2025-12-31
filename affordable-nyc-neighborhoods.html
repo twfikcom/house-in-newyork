@@ -1,0 +1,45 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Affordable NYC Neighborhoods | HouseInNewYork.com</title>
+    <meta name="description" content="Discover the top 10 most affordable neighborhoods in NYC for 2026, focusing on Queens and Staten Island value.">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script>tailwind.config = { theme: { extend: { colors: { navy: '#001f3f', gold: '#d4af37' }, fontFamily: { serif: ['"Playfair Display"', 'serif'], sans: ['Inter', 'sans-serif'] } } } }</script>
+</head>
+<body class="bg-gray-50 flex flex-col min-h-screen">
+    <nav class="bg-navy text-white py-6">
+        <div class="max-w-7xl mx-auto px-4"><a href="index.html" class="text-gold font-serif text-2xl font-bold">HOUSE IN NEW YORK</a></div>
+    </nav>
+    <header class="relative h-[400px] overflow-hidden">
+        <img src="https://images.unsplash.com/photo-1544984243-75a60096994c?auto=format&fit=crop&q=80&w=1600" class="w-full h-full object-cover" alt="Residential street in Queens NYC">
+        <div class="absolute inset-0 bg-navy/40"></div>
+        <div class="absolute inset-0 flex items-end pb-12">
+            <div class="max-w-7xl mx-auto px-4 w-full">
+                <div class="bg-navy p-8 border-l-8 border-gold shadow-2xl animate-fade-in">
+                    <h1 class="text-3xl md:text-5xl font-serif text-white">Top 10 Most Affordable Neighborhoods to Buy in NYC</h1>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main class="max-w-7xl mx-auto px-4 py-20 grid lg:grid-cols-12 gap-16">
+        <article class="lg:col-span-8 prose prose-lg max-w-none">
+            <p class="text-2xl font-serif font-medium text-navy italic border-l-4 border-gold pl-8 bg-gray-50 py-4 mb-12">While Manhattan headlines scream record highs, affordability still exists in the Outer Boroughs. Queens and Staten Island represent the city's value champion for 2026.</p>
+            <p>Queens neighborhoods like <span class="text-navy font-bold">Bayside</span> and <span class="text-navy font-bold">Glen Oaks</span> offer detached family homes at a fraction of Manhattan prices. These areas are increasingly popular for those seeking a balance between suburban comfort and urban connectivity.</p>
+            <p>In Staten Island, neighborhoods such as <span class="text-navy font-bold">Annadale</span> and <span class="text-navy font-bold">Great Kills</span> are seeing a surge in 2026 as buyers prioritize square footage and private outdoor space. These hidden gems are often overlooked by out-of-state buyers, providing a strategic entry point for savvy locals.</p>
+            <div class="bg-gray-100 p-8 my-10 border-l-4 border-navy">
+                <h4 class="text-navy font-bold uppercase text-xs mb-2">Borough Value Index (2026 Forecast)</h4>
+                <p class="text-sm">Queens: $750/sq ft (Avg)<br>Staten Island: $620/sq ft (Avg)<br>The Bronx: $580/sq ft (Avg)</p>
+            </div>
+            <p>Our analysis factors in transit accessibility, local school ratings, and historical appreciation rates to bring you the best value champions for the upcoming year.</p>
+        </article>
+        <aside id="sidebar" class="lg:col-span-4"></aside>
+    </main>
+    <footer id="global-footer" class="bg-navy text-white py-10 mt-auto"></footer>
+    <div id="domain-modal" class="fixed inset-0 z-[100] flex items-center justify-center px-4 hidden"></div>
+    <script src="main.js" type="module"></script>
+</body>
+</html>

@@ -1,0 +1,38 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Investing in NYC: ROI by Borough | HouseInNewYork.com</title>
+    <meta name="description" content="Which NYC borough offers the best ROI for real estate investors? Deep dive analysis.">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="styles.css">
+    <script>tailwind.config = { theme: { extend: { colors: { navy: '#001f3f', gold: '#d4af37' }, fontFamily: { serif: ['"Playfair Display"', 'serif'], sans: ['Inter', 'sans-serif'] } } } }</script>
+</head>
+<body class="bg-gray-50 flex flex-col min-h-screen">
+    <nav class="bg-navy text-white py-6">
+        <div class="max-w-7xl mx-auto px-4"><a href="index.html" class="text-gold font-serif text-2xl font-bold">HOUSE IN NEW YORK</a></div>
+    </nav>
+    <header class="relative h-[400px] overflow-hidden">
+        <img src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&q=80&w=1600" class="w-full h-full object-cover" alt="Modern Building NYC">
+        <div class="absolute inset-0 bg-navy/40"></div>
+        <div class="absolute inset-0 flex items-end pb-12">
+            <div class="max-w-7xl mx-auto px-4 w-full">
+                <div class="bg-navy p-8 border-l-8 border-gold shadow-2xl animate-fade-in">
+                    <h1 class="text-3xl md:text-5xl font-serif text-white leading-tight">Investing in New York Real Estate: Which Borough Offers the Best ROI?</h1>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main class="max-w-7xl mx-auto px-4 py-20 grid lg:grid-cols-12 gap-16">
+        <article class="lg:col-span-8 prose prose-lg max-w-none">
+            <p class="text-2xl font-serif text-navy italic border-l-4 border-gold pl-8 bg-gray-50 py-4 mb-12">Multi-family homes in the Bronx and Queens currently offer the highest cap rates for investors looking for long-term rental income.</p>
+            <p>Multi-family homes in The Bronx and Queens are currently showing some of the city’s highest cap rates. As Manhattan becomes saturated, savvy investors are looking toward these growth corridors.</p>
+            <p>While Manhattan offers long-term appreciation and stability, the yield-hungry investor is looking toward the "Next Brooklyn" – potentially certain pockets of the Rockaways or Northern Staten Island.</p>
+        </article>
+        <aside id="sidebar" class="lg:col-span-4"></aside>
+    </main>
+    <footer id="global-footer" class="bg-navy text-white py-10 mt-auto"></footer>
+    <script src="main.js" type="module"></script>
+</body>
+</html>

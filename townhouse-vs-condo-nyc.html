@@ -1,0 +1,38 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Townhouse vs Condo NYC | HouseInNewYork.com</title>
+    <meta name="description" content="Should you buy a townhouse or a condo in NYC? Pro and con comparison.">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="styles.css">
+    <script>tailwind.config = { theme: { extend: { colors: { navy: '#001f3f', gold: '#d4af37' }, fontFamily: { serif: ['"Playfair Display"', 'serif'], sans: ['Inter', 'sans-serif'] } } } }</script>
+</head>
+<body class="bg-gray-50 flex flex-col min-h-screen">
+    <nav class="bg-navy text-white py-6">
+        <div class="max-w-7xl mx-auto px-4"><a href="index.html" class="text-gold font-serif text-2xl font-bold">HOUSE IN NEW YORK</a></div>
+    </nav>
+    <header class="relative h-[400px] overflow-hidden">
+        <img src="https://images.unsplash.com/photo-1449156001935-d2860525760b?auto=format&fit=crop&q=80&w=1600" class="w-full h-full object-cover" alt="NYC Townhouse">
+        <div class="absolute inset-0 bg-navy/40"></div>
+        <div class="absolute inset-0 flex items-end pb-12">
+            <div class="max-w-7xl mx-auto px-4 w-full">
+                <div class="bg-navy p-8 border-l-8 border-gold shadow-2xl animate-fade-in">
+                    <h1 class="text-3xl md:text-5xl font-serif text-white leading-tight">The Pros and Cons of Buying a Townhouse vs. a Condo in New York</h1>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main class="max-w-7xl mx-auto px-4 py-20 grid lg:grid-cols-12 gap-16">
+        <article class="lg:col-span-8 prose prose-lg max-w-none">
+            <p class="text-2xl font-serif text-navy italic border-l-4 border-gold pl-8 bg-gray-50 py-4 mb-12">Do you want full ownership of the land (Townhouse) or the convenience of a serviced building (Condo)? We compare rights and maintenance costs.</p>
+            <p>Do you want the autonomy of a townhouse or the amenities of a condo? The choice defines your New York lifestyle and your future resale value.</p>
+            <p>Townhouses offer fee-simple ownership and no monthly board fees, but you are responsible for everything from snow removal to roof repairs. Condos provide convenience and high-end services but come with common charges.</p>
+        </article>
+        <aside id="sidebar" class="lg:col-span-4"></aside>
+    </main>
+    <footer id="global-footer" class="bg-navy text-white py-10 mt-auto"></footer>
+    <script src="main.js" type="module"></script>
+</body>
+</html>

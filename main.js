@@ -1,20 +1,19 @@
 
 /**
- * HouseInNewYork.com - Shared Authority Logic
- * Defensive implementation to prevent "null" property access errors.
+ * HouseInNewYork.com - Professional Intelligence Logic
  */
 
 const BLOG_DATA = [
-  { title: "Buying Your First House in New York in 2026", slug: "buying-first-house-ny-2026", cat: "Guides", img: "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&q=80&w=800", summ: "Master the 2026 market with grants for first-time buyers in NYC." },
-  { title: "Top 10 Most Affordable Neighborhoods in NYC", slug: "affordable-nyc-neighborhoods", cat: "Market", img: "https://images.unsplash.com/photo-1544984243-75a60096994c?auto=format&fit=crop&q=80&w=800", summ: "Exploring Queens and Staten Island gems for the budget-conscious." },
+  { title: "Buying Your First House in New York in 2026", slug: "buying-first-house-ny-2026", cat: "Guides", img: "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&q=80&w=800", summ: "Master the 2026 market with specific grants for first-time buyers in NYC." },
+  { title: "Top 10 Most Affordable Neighborhoods in NYC", slug: "affordable-nyc-neighborhoods", cat: "Market", img: "https://images.unsplash.com/photo-1568232109603-469036979603?auto=format&fit=crop&q=80&w=800", summ: "Detailed data on Queens and Staten Island value champions for the budget-conscious." },
   { title: "Luxury Living: NYC Most Expensive Houses", slug: "luxury-houses-for-sale-ny", cat: "Luxury", img: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&q=80&w=800", summ: "A look inside the multi-million dollar townhouses defining prestige." },
-  { title: "Navigating NYC for Out-of-State Buyers", slug: "out-of-state-buyer-tips", cat: "Relocation", img: "https://images.unsplash.com/photo-1496871455396-14e56815f1f4?auto=format&fit=crop&q=80&w=800", summ: "Legal and financial intricacies of the New York housing market." },
-  { title: "Best Family-Friendly Neighborhoods in New York", slug: "family-friendly-nyc-neighborhoods", cat: "Lifestyle", img: "https://images.unsplash.com/photo-1513584684374-8bdb7489feef?auto=format&fit=crop&q=80&w=800", summ: "Focusing on top-tier school districts and green spaces in Brooklyn." },
-  { title: "New York Property Tax Explained", slug: "ny-property-tax-explained", cat: "Finance", img: "https://images.unsplash.com/photo-1554224155-6726b3ff858f?auto=format&fit=crop&q=80&w=800", summ: "Unpacking tax abatements and benefits for NYC homebuyers." },
-  { title: "Investing in NYC: ROI by Borough", slug: "nyc-real-estate-roi-by-borough", cat: "Investment", img: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&q=80&w=800", summ: "A deep dive into multi-family home returns across the city." },
-  { title: "Townhouse vs Condo in New York", slug: "townhouse-vs-condo-nyc", cat: "Guides", img: "https://images.unsplash.com/photo-1449156001935-d2860525760b?auto=format&fit=crop&q=80&w=800", summ: "Exploring ownership rights and maintenance responsibilities." },
-  { title: "Closing Checklist for NYC Home Sales", slug: "closing-on-house-ny-checklist", cat: "Legal", img: "https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&q=80&w=800", summ: "A definitive guide to closing on a house in New York State." },
-  { title: "Future Trends: NYC Housing Market 5-Year Outlook", slug: "nyc-housing-market-future-trends", cat: "Market", img: "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?auto=format&fit=crop&q=80&w=800", summ: "Predictions on sustainability and emerging luxury hubs." }
+  { title: "Navigating NYC for Out-of-State Buyers", slug: "out-of-state-buyer-tips", cat: "Relocation", img: "https://images.unsplash.com/photo-1522083165195-3424ed129620?auto=format&fit=crop&q=80&w=800", summ: "The legal and financial intricacies of the New York housing market for out-of-staters." },
+  { title: "Best Family-Friendly Neighborhoods in New York", slug: "family-friendly-nyc-neighborhoods", cat: "Lifestyle", img: "https://images.unsplash.com/photo-1449844908441-8829872d2607?auto=format&fit=crop&q=80&w=800", summ: "Ranking school districts and green spaces in Brooklyn and beyond." },
+  { title: "New York Property Tax Explained", slug: "ny-property-tax-explained", cat: "Finance", img: "https://images.unsplash.com/photo-1554224155-6726b3ff858f?auto=format&fit=crop&q=80&w=800", summ: "Essential guide to tax classes, assessments, and 421-a abatements." },
+  { title: "Investing in NYC: ROI by Borough", slug: "nyc-real-estate-roi-by-borough", cat: "Investment", img: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&q=80&w=800", summ: "A deep dive into multi-family home returns and rental yield projections." },
+  { title: "Townhouse vs Condo in New York", slug: "townhouse-vs-condo-nyc", cat: "Guides", img: "https://images.unsplash.com/photo-1480074568708-e7b720bb3f09?auto=format&fit=crop&q=80&w=800", summ: "Comparing ownership rights, board approvals, and maintenance vs common charges." },
+  { title: "Closing Checklist for NYC Home Sales", slug: "closing-on-house-ny-checklist", cat: "Legal", img: "https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&q=80&w=800", summ: "A definitive step-by-step to the final 60-day closing gauntlet." },
+  { title: "Future Trends: NYC Housing Market 5-Year Outlook", slug: "nyc-housing-market-future-trends", cat: "Market", img: "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?auto=format&fit=crop&q=80&w=800", summ: "Sustainability, rezoning, and the impact of transit on values." }
 ];
 
 document.addEventListener('DOMContentLoaded', () => {
@@ -78,7 +77,7 @@ function injectSharedUI() {
             </div>`;
     }
 
-    // 3. Domain Modal Injection
+    // 3. Domain Modal Logic
     const modal = document.getElementById('domain-modal');
     if (modal) {
         modal.innerHTML = `
@@ -99,69 +98,22 @@ function injectSharedUI() {
                             <span class="text-gold w-20">WhatsApp:</span> +201010373331
                         </div>
                     </div>
-                    <button id="modal-continue" class="text-slate uppercase text-[10px] tracking-widest font-bold hover:text-gold transition">Return to Intelligence Portal</button>
                 </div>
             </div>`;
-        
         const openBtn = document.getElementById('open-domain-popup');
         const closeBtn = document.getElementById('close-modal');
         const overlay = document.getElementById('modal-overlay');
-        const continueBtn = document.getElementById('modal-continue');
-
         const toggle = (show) => {
             modal.classList.toggle('hidden', !show);
             document.body.style.overflow = show ? 'hidden' : '';
         };
-
         openBtn?.addEventListener('click', () => toggle(true));
-        [closeBtn, overlay, continueBtn].forEach(el => el?.addEventListener('click', () => toggle(false)));
-    }
-
-    // 4. Search Behavior
-    const searchInput = document.getElementById('search-input');
-    if (searchInput) {
-        searchInput.addEventListener('input', (e) => {
-            const query = e.target.value.toLowerCase();
-            const grid = document.getElementById('blog-grid');
-            if (grid) {
-                renderFilteredGrid(query, grid);
-            } else if (query.length > 2) {
-                // If on article page, redirect to home with query
-                window.location.href = `index.html?q=${encodeURIComponent(query)}`;
-            }
-        });
-
-        // Handle incoming search query from URL params
-        const params = new URLSearchParams(window.location.search);
-        if (params.has('q')) {
-            const q = params.get('q');
-            searchInput.value = q;
-            const grid = document.getElementById('blog-grid');
-            if (grid) renderFilteredGrid(q.toLowerCase(), grid);
-        }
+        [closeBtn, overlay].forEach(el => el?.addEventListener('click', () => toggle(false)));
     }
 }
 
 function initBlogGrid(grid) {
-    renderFilteredGrid('', grid);
-}
-
-function renderFilteredGrid(query, grid) {
-    const feedback = document.getElementById('search-feedback');
-    const display = document.getElementById('query-display');
-    
-    const filtered = BLOG_DATA.filter(p => 
-        p.title.toLowerCase().includes(query) || p.summ.toLowerCase().includes(query)
-    );
-
-    if (query && feedback && display) {
-        feedback.classList.remove('hidden');
-        display.textContent = `"${query}"`;
-    } else if (feedback) {
-        feedback.classList.add('hidden');
-    }
-
-    grid.innerHTML = filtered.map(p => `
+    grid.innerHTML = BLOG_DATA.map(p => `
         <article class="group bg-white overflow-hidden border border-gray-100 shadow-sm hover:shadow-xl transition-all duration-500 animate-fade-in flex flex-col h-full">
             <div class="relative aspect-[16/10] overflow-hidden">
                 <img src="${p.img}" alt="${p.title}" class="w-full h-full object-cover transform transition duration-1000 group-hover:scale-110" />

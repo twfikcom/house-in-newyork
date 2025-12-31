@@ -3,36 +3,71 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>NYC Property Tax Explained | HouseInNewYork.com</title>
-    <meta name="description" content="A complete guide to New York property taxes and tax abatements for homeowners.">
+    <title>New York Property Tax Explained 2026 | HouseInNewYork.com</title>
+    <meta name="description" content="A comprehensive guide to NYC property taxes, tax classes, assessments, and abatements for first-time and luxury buyers.">
     <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
     <script>tailwind.config = { theme: { extend: { colors: { navy: '#001f3f', gold: '#d4af37' }, fontFamily: { serif: ['"Playfair Display"', 'serif'], sans: ['Inter', 'sans-serif'] } } } }</script>
 </head>
 <body class="bg-gray-50 flex flex-col min-h-screen">
-    <nav class="bg-navy text-white py-6">
-        <div class="max-w-7xl mx-auto px-4"><a href="index.html" class="text-gold font-serif text-2xl font-bold">HOUSE IN NEW YORK</a></div>
+    <nav class="bg-navy text-white py-6 shadow-xl sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 flex justify-between items-center">
+            <a href="index.html" class="text-gold font-serif text-2xl font-bold tracking-tighter">HOUSE IN NEW YORK</a>
+            <div class="hidden md:flex space-x-8 text-[10px] font-bold uppercase tracking-widest">
+                <a href="index.html" class="hover:text-gold transition">Market Intel</a>
+                <a href="contact.html" class="hover:text-gold transition">Inquiry</a>
+            </div>
+        </div>
     </nav>
-    <header class="relative h-[400px] overflow-hidden">
-        <img src="https://images.unsplash.com/photo-1554224155-6726b3ff858f?auto=format&fit=crop&q=80&w=1600" class="w-full h-full object-cover" alt="Tax Documents">
-        <div class="absolute inset-0 bg-navy/40"></div>
-        <div class="absolute inset-0 flex items-end pb-12">
-            <div class="max-w-7xl mx-auto px-4 w-full">
-                <div class="bg-navy p-8 border-l-8 border-gold shadow-2xl animate-fade-in">
-                    <h1 class="text-3xl md:text-5xl font-serif text-white leading-tight">New York Property Tax Explained: What Every Homebuyer Needs to Know</h1>
-                </div>
+
+    <header class="relative h-[450px] overflow-hidden">
+        <img src="https://images.unsplash.com/photo-1554224155-6726b3ff858f?auto=format&fit=crop&q=80&w=1600" class="w-full h-full object-cover" alt="Financial district New York taxation">
+        <div class="absolute inset-0 bg-navy/60"></div>
+        <div class="absolute inset-0 flex items-center justify-center">
+            <div class="max-w-4xl text-center px-4">
+                <div class="bg-gold/10 border border-gold/30 inline-block px-4 py-1 text-gold text-[10px] font-bold uppercase tracking-widest mb-6 backdrop-blur-sm">Financial Intelligence</div>
+                <h1 class="text-4xl md:text-6xl font-serif text-white mb-6 leading-tight">New York Property Tax Explained</h1>
+                <p class="text-gray-200 font-light text-lg md:text-xl max-w-2xl mx-auto">Mastering the complexities of NYC assessments, abatements, and long-term liabilities.</p>
             </div>
         </div>
     </header>
+
     <main class="max-w-7xl mx-auto px-4 py-20 grid lg:grid-cols-12 gap-16">
-        <article class="lg:col-span-8 prose prose-lg max-w-none">
-            <p class="text-2xl font-serif text-navy italic border-l-4 border-gold pl-8 bg-gray-50 py-4 mb-12">Understanding 421-a tax abatements can save a homebuyer thousands per year. We break down the tax assessment process for condos and townhouses.</p>
-            <p>Property taxes in New York can be a maze of exemptions and abatements. Understanding the 421-a abatement and its impact on your monthly carry is vital for long-term budgeting.</p>
-            <p>We explain how tax assessments work, why some luxury condos have surprisingly low taxes compared to smaller townhouses, and how to factor these costs into your mortgage projections.</p>
+        <article class="lg:col-span-8 prose prose-lg max-w-none text-gray-800 leading-relaxed">
+            <p class="text-2xl font-serif text-navy leading-relaxed italic border-l-4 border-gold pl-8 py-4 bg-gray-50 mb-12">
+                In New York City, property tax is not just a line item; it is a variable that can fluctuate by thousands of dollars based on a property's tax class. Understanding the distinction between Class 1 and Class 2 is the most vital step in your financial planning.
+            </p>
+
+            <h2 class="text-3xl font-serif font-bold text-navy mt-12 mb-6">The Four Tax Classes</h2>
+            <p>NYC categorizes real estate into four distinct classes, but residential buyers primarily interact with the first two:</p>
+            <ul class="space-y-4">
+                <li><strong>Class 1:</strong> Includes 1-3 family residential homes and condominiums of three stories or less. These properties benefit from state-mandated caps on assessment increases (6% per year or 20% over 5 years).</li>
+                <li><strong>Class 2:</strong> Includes all other residential properties, primarily cooperatives and larger condominiums. These properties do not benefit from the same assessment caps and can see sudden tax spikes.</li>
+            </ul>
+
+            <h2 class="text-3xl font-serif font-bold text-navy mt-12 mb-6">421-a Abatements and the "Sunset" Effect</h2>
+            <p>Many luxury buildings built in the last 15 years benefited from the 421-a tax abatement. However, as these abatements begin to "sunset" (phase out) in 2026, many condo owners are seeing their monthly carry costs double. It is imperative to check the abatement schedule of any building before signing a contract.</p>
+
+            <div class="bg-gray-100 p-8 my-10 border border-gray-200">
+                <h4 class="text-navy font-bold uppercase text-xs mb-4">Authority Checklist: Tax Due Diligence</h4>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4 text-sm">
+                    <div class="flex gap-2"><span>1.</span><span>Verify current Tax Class on NYC Dept of Finance website.</span></div>
+                    <div class="flex gap-2"><span>2.</span><span>Check for outstanding tax liens or "J-51" abatements.</span></div>
+                    <div class="flex gap-2"><span>3.</span><span>Calculate the post-abatement tax liability (the "Full Tax").</span></div>
+                    <div class="flex gap-2"><span>4.</span><span>Identify if the property qualifies for the STAR exemption.</span></div>
+                </div>
+            </div>
+
+            <h2 class="text-3xl font-serif font-bold text-navy mt-12 mb-6">The Assessment Cycle</h2>
+            <p>NYC reassesses property values annually. Your bill is determined by multiplying the "Assessed Value" by the "Current Tax Rate." In 2026, tax rates have stabilized, but increased municipal spending often leads to marginal rate hikes that must be factored into your long-term ROI projections.</p>
         </article>
         <aside id="sidebar" class="lg:col-span-4"></aside>
     </main>
-    <footer id="global-footer" class="bg-navy text-white py-10 mt-auto"></footer>
+
+    <footer id="global-footer" class="bg-navy text-white py-20 mt-auto"></footer>
+    <div id="domain-modal" class="fixed inset-0 z-[100] flex items-center justify-center px-4 hidden"></div>
+
     <script src="main.js" type="module"></script>
 </body>
 </html>

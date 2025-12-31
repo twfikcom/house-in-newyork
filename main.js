@@ -1,19 +1,18 @@
-
 /**
  * HouseInNewYork.com - Professional Intelligence Logic
  */
 
 const BLOG_DATA = [
-  { title: "Buying Your First House in New York in 2026", slug: "buying-first-house-ny-2026", cat: "Guides", img: "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&q=80&w=800", summ: "Master the 2026 market with specific grants for first-time buyers in NYC." },
-  { title: "Top 10 Most Affordable Neighborhoods in NYC", slug: "affordable-nyc-neighborhoods", cat: "Market", img: "https://images.unsplash.com/photo-1568232109603-469036979603?auto=format&fit=crop&q=80&w=800", summ: "Detailed data on Queens and Staten Island value champions for the budget-conscious." },
-  { title: "Luxury Living: NYC Most Expensive Houses", slug: "luxury-houses-for-sale-ny", cat: "Luxury", img: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&q=80&w=800", summ: "A look inside the multi-million dollar townhouses defining prestige." },
-  { title: "Navigating NYC for Out-of-State Buyers", slug: "out-of-state-buyer-tips", cat: "Relocation", img: "https://images.unsplash.com/photo-1522083165195-3424ed129620?auto=format&fit=crop&q=80&w=800", summ: "The legal and financial intricacies of the New York housing market for out-of-staters." },
-  { title: "Best Family-Friendly Neighborhoods in New York", slug: "family-friendly-nyc-neighborhoods", cat: "Lifestyle", img: "https://images.unsplash.com/photo-1491147334573-44cbb4602074?auto=format&fit=crop&q=80&w=1200", summ: "Ranking school districts and green spaces in Brooklyn and beyond." },
-  { title: "New York Property Tax Explained", slug: "ny-property-tax-explained", cat: "Finance", img: "https://images.unsplash.com/photo-1554224155-6726b3ff858f?auto=format&fit=crop&q=80&w=800", summ: "Essential guide to tax classes, assessments, and 421-a abatements." },
-  { title: "Investing in NYC: ROI by Borough", slug: "nyc-real-estate-roi-by-borough", cat: "Investment", img: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&q=80&w=1600", summ: "A deep dive into multi-family home returns and rental yield projections." },
-  { title: "Townhouse vs Condo in New York", slug: "townhouse-vs-condo-nyc", cat: "Guides", img: "https://images.unsplash.com/photo-1480074568708-e7b720bb3f09?auto=format&fit=crop&q=80&w=1200", summ: "Comparing ownership rights, board approvals, and maintenance vs common charges." },
-  { title: "Closing Checklist for NYC Home Sales", slug: "closing-on-house-ny-checklist", cat: "Legal", img: "https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&q=80&w=800", summ: "A definitive step-by-step to the final 60-day closing gauntlet." },
-  { title: "Future Trends: NYC Housing Market 5-Year Outlook", slug: "nyc-housing-market-future-trends", cat: "Market", img: "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?auto=format&fit=crop&q=80&w=1600", summ: "Sustainability, rezoning, and the impact of transit on values." }
+  { title: "Buying Your First House in New York in 2026", slug: "buying-first-house-ny-2026", date: "Jan 10, 2026", cat: "Guides", img: "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&q=80&w=800", summ: "Master the 2026 market with specific grants for first-time buyers in NYC." },
+  { title: "Top 10 Most Affordable Neighborhoods in NYC", slug: "affordable-nyc-neighborhoods", date: "Jan 15, 2026", cat: "Market", img: "https://images.unsplash.com/photo-1568232109603-469036979603?auto=format&fit=crop&q=80&w=800", summ: "Detailed data on Queens and Staten Island value champions for the budget-conscious." },
+  { title: "Luxury Living: NYC Most Expensive Houses", slug: "luxury-houses-for-sale-ny", date: "Jan 20, 2026", cat: "Luxury", img: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&q=80&w=800", summ: "A look inside the multi-million dollar townhouses defining prestige." },
+  { title: "Navigating NYC for Out-of-State Buyers", slug: "out-of-state-buyer-tips", date: "Nov 05, 2025", cat: "Relocation", img: "https://images.unsplash.com/photo-1522083165195-3424ed129620?auto=format&fit=crop&q=80&w=800", summ: "The legal and financial intricacies of the New York housing market for out-of-staters." },
+  { title: "Best Family-Friendly Neighborhoods in New York", slug: "family-friendly-nyc-neighborhoods", date: "Nov 12, 2025", cat: "Lifestyle", img: "https://images.unsplash.com/photo-1491147334573-44cbb4602074?auto=format&fit=crop&q=80&w=1200", summ: "Ranking school districts and green spaces in Brooklyn and beyond." },
+  { title: "New York Property Tax Explained", slug: "ny-property-tax-explained", date: "Nov 18, 2025", cat: "Finance", img: "https://images.unsplash.com/photo-1554224155-6726b3ff858f?auto=format&fit=crop&q=80&w=800", summ: "Essential guide to tax classes, assessments, and 421-a abatements." },
+  { title: "Investing in NYC: ROI by Borough", slug: "nyc-real-estate-roi-by-borough", date: "Nov 25, 2025", cat: "Investment", img: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&q=80&w=1600", summ: "A deep dive into multi-family home returns and rental yield projections." },
+  { title: "Townhouse vs Condo in New York", slug: "townhouse-vs-condo-nyc", date: "Oct 05, 2025", cat: "Guides", img: "https://images.unsplash.com/photo-1480074568708-e7b720bb3f09?auto=format&fit=crop&q=80&w=1200", summ: "Comparing ownership rights, board approvals, and maintenance vs common charges." },
+  { title: "Closing Checklist for NYC Home Sales", slug: "closing-on-house-ny-checklist", date: "Oct 15, 2025", cat: "Legal", img: "https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&q=80&w=800", summ: "A definitive step-by-step to the final 60-day closing gauntlet." },
+  { title: "Future Trends: NYC Housing Market 5-Year Outlook", slug: "nyc-housing-market-future-trends", date: "Oct 25, 2025", cat: "Market", img: "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?auto=format&fit=crop&q=80&w=800", summ: "Sustainability, rezoning, and the impact of transit on values." }
 ];
 
 document.addEventListener('DOMContentLoaded', () => {
@@ -195,6 +194,7 @@ function initBlogGrid(grid) {
                 <span class="absolute top-6 left-6 bg-navy/90 backdrop-blur-md text-gold text-[9px] font-bold uppercase tracking-[0.3em] px-4 py-2 border border-gold/20 shadow-2xl">${p.cat}</span>
             </div>
             <div class="p-8 md:p-10 flex flex-col flex-grow">
+                <div class="text-[10px] font-bold text-slate uppercase tracking-widest mb-3">${p.date}</div>
                 <h3 class="text-2xl font-serif font-bold text-navy mb-4 group-hover:text-gold transition-colors leading-tight italic">
                     <a href="${p.slug}.html">${p.title}</a>
                 </h3>

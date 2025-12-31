@@ -4,19 +4,34 @@
 <head>
     <meta charset="UTF-8">
     <title>Top 10 Most Affordable Neighborhoods in NYC 2026 | HouseInNewYork.com</title>
-    <meta name="description" content="Discover where value meets quality in the NYC real estate market. A deep dive into Queens, Staten Island, and the Bronx affordability champions.">
+    <meta name="description" content="Discover where value meets quality in the NYC real estate market. A deep dive into Woodhaven, Midland Beach, and Pelham Bay affordability champions.">
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
-    <script>tailwind.config = { theme: { extend: { colors: { navy: '#001f3f', gold: '#d4af37' }, fontFamily: { serif: ['"Playfair Display"', 'serif'], sans: ['Inter', 'sans-serif'] } } } }</script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: { navy: '#001f3f', gold: '#d4af37', slate: '#708090' },
+                    fontFamily: { serif: ['"Playfair Display"', 'serif'], sans: ['Inter', 'sans-serif'] }
+                }
+            }
+        }
+    </script>
 </head>
-<body class="bg-gray-50 flex flex-col min-h-screen">
-    <nav class="bg-navy text-white py-6 shadow-xl sticky top-0 z-50">
-        <div class="max-w-7xl mx-auto px-4 flex justify-between items-center">
-            <a href="index.html" class="text-gold font-serif text-2xl font-bold tracking-tighter">HOUSE IN NEW YORK</a>
-            <div class="hidden md:flex space-x-8 text-[10px] font-bold uppercase tracking-widest">
-                <a href="index.html" class="hover:text-gold transition">Market Intel</a>
-                <a href="contact.html" class="hover:text-gold transition">Inquiry</a>
+<body class="bg-gray-50 text-gray-900 flex flex-col min-h-screen">
+    <nav class="bg-navy text-white sticky top-0 z-50 shadow-md">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex flex-col md:flex-row justify-between items-center py-4 md:h-24 gap-4 md:gap-0">
+                <a href="index.html" class="flex flex-col group">
+                    <span class="text-2xl font-serif font-bold tracking-tighter text-gold leading-none group-hover:text-white transition uppercase">HOUSE IN NEW YORK</span>
+                    <span class="text-[10px] tracking-[0.2em] uppercase text-slate">Premium Real Estate Authority</span>
+                </a>
+                <div class="hidden md:flex items-baseline space-x-6 text-[11px] font-bold uppercase tracking-widest">
+                    <a href="index.html" class="hover:text-gold transition">Market</a>
+                    <a href="contact.html" class="hover:text-gold transition">Contact</a>
+                    <a href="contact.html" class="border border-gold px-4 py-2 rounded-sm bg-gold/10 hover:bg-gold hover:text-navy transition">Inquiry</a>
+                </div>
             </div>
         </div>
     </nav>
@@ -27,50 +42,88 @@
         <div class="absolute inset-0 flex items-center justify-center">
             <div class="max-w-4xl text-center px-4">
                 <div class="bg-gold/10 border border-gold/30 inline-block px-4 py-1 text-gold text-[10px] font-bold uppercase tracking-widest mb-6 backdrop-blur-sm">2026 Market Analysis</div>
-                <h1 class="text-4xl md:text-6xl font-serif text-white mb-6 leading-tight">Top 10 Most Affordable Neighborhoods in NYC</h1>
+                <h1 class="text-4xl md:text-6xl font-serif text-white mb-6 leading-tight uppercase">Top 10 Most Affordable Neighborhoods in NYC</h1>
                 <p class="text-gray-200 font-light text-lg md:text-xl max-w-2xl mx-auto">Strategic value discovery for the modern homebuyer in the outer boroughs.</p>
             </div>
         </div>
     </header>
 
-    <main class="max-w-7xl mx-auto px-4 py-20 grid lg:grid-cols-12 gap-16">
-        <article class="lg:col-span-8 prose prose-lg max-w-none text-gray-800 leading-relaxed">
-            <p class="text-2xl font-serif text-navy leading-relaxed italic border-l-4 border-gold pl-8 py-4 bg-gray-50 mb-12">
-                While Manhattan headlines focus on record-breaking penthouses, the true story of 2026 is the resilience of the outer boroughs. Smart money is moving toward pockets where transit access and local school districts haven't yet been priced out.
-            </p>
+    <main class="max-w-7xl mx-auto px-4 py-20">
+        <div class="grid lg:grid-cols-12 gap-16">
+            <article class="lg:col-span-8 prose prose-lg max-w-none text-gray-800 leading-relaxed font-light">
+                <p class="text-2xl font-serif text-navy leading-relaxed italic border-l-4 border-gold pl-8 py-4 bg-gray-50 mb-12">
+                    "While Manhattan headlines focus on record-breaking penthouses, the true story of 2026 is the resilience of the outer boroughs. Smart money is moving toward pockets where transit access and local school districts haven't yet been priced out."
+                </p>
 
-            <h2 class="text-3xl font-serif font-bold text-navy mt-12 mb-6">The Value Paradigm: Queens & Staten Island</h2>
-            <p>Affordability in NYC is relative, but in 2026, we define it as properties under the **$750,000 threshold** that offer at least 1,200 square feet. This combination is becoming rare, yet specific pockets in Queens and Staten Island continue to deliver.</p>
+                <h2 class="text-3xl font-serif font-bold text-navy mt-12 mb-6">Introduction: Redefining Value in 2026</h2>
+                <p>The concept of "affordability" in New York City has undergone a radical transformation. In the 2026 landscape, we define value as the intersection of price-per-square-foot, proximity to expanding transit hubs, and the presence of high-performing local school districts. This guide explores the neighborhoods that remain within reach of the middle-class professional while offering substantial appreciation potential.</p>
 
-            <h3 class="text-xl font-serif font-bold text-navy mt-10 mb-4">1. Woodhaven, Queens</h3>
-            <p>Often overlooked, Woodhaven offers incredible value with median house prices still hovering around $680,000. Bordering Forest Park, it provides a suburban feel with the J/Z trains providing a direct 45-minute commute to Lower Manhattan. The architectural diversity—from Victorian frame houses to brick rowhouses—is unmatched at this price point.</p>
+                <h2 class="text-3xl font-serif font-bold text-navy mt-12 mb-6">The Queens Value Corridors</h2>
+                <h3 class="text-xl font-serif font-bold text-navy mt-10 mb-4">1. Woodhaven: The Forest Park Gateway</h3>
+                <p>Woodhaven remains the city's hidden gem for single-family detached houses. Bordered by the 538-acre Forest Park, this neighborhood offers architectural gems—Victorian-style frames and classic brick rowhouses—at prices that Manhattanites spend on studio condos.</p>
+                <div class="my-12">
+                    <img src="https://images.unsplash.com/photo-1543333309-844b956997a3?auto=format&fit=crop&q=80&w=1200" alt="Row of colorful houses in a quiet Queens neighborhood" class="w-full h-auto shadow-xl border border-gray-100">
+                    <blockquote class="mt-4 border-l-4 border-gold pl-6 py-2 bg-navy/5 text-navy italic font-serif text-sm">
+                        Detached residential architecture in Woodhaven, illustrating the suburban character and significant square-footage value available to 2026 buyers in Queens.
+                    </blockquote>
+                </div>
 
-            <h3 class="text-xl font-serif font-bold text-navy mt-10 mb-4">2. Midland Beach, Staten Island</h3>
-            <p>For those seeking detached homes and private yards, Midland Beach is the 2026 standout. With the ongoing investment in the Staten Island Seawall and park systems, this area is seeing a cultural revitalization. Median prices for a renovated 3-bedroom home start at approximately $620,000.</p>
+                <h3 class="text-xl font-serif font-bold text-navy mt-10 mb-4">2. Glen Oaks: Cooperative Excellence</h3>
+                <p>For those targeting the lowest possible entry point without sacrificing safety or school quality, Glen Oaks is unparalleled. Predominantly a garden-style cooperative community, Glen Oaks offers "Class 2" residential stability with massive shared courtyards and dedicated security. It remains a top choice for District 26 school access.</p>
 
-            <div class="bg-navy text-white p-10 my-12 border-l-8 border-gold shadow-xl">
-                <h4 class="text-gold font-bold uppercase tracking-widest text-xs mb-4 italic">Insider ROI Tip</h4>
-                <p class="text-slate text-sm mb-0">Look for Class 1 properties (1-3 family homes) in Woodhaven. These carry lower property tax rates than Class 2 (Condos) and offer rental income potential to offset mortgage costs in high-interest environments.</p>
-            </div>
+                <h2 class="text-3xl font-serif font-bold text-navy mt-12 mb-6">Staten Island: The Square Footage Champion</h2>
+                <h3 class="text-xl font-serif font-bold text-navy mt-10 mb-4">3. Midland Beach: Resilience & Renewal</h3>
+                <p>Following massive investments in sea wall infrastructure and park restoration, Midland Beach has become a 2026 standout for coastal living. Detached 3-bedroom houses are currently trading at significantly lower price points than similar assets in Brooklyn.</p>
+                <div class="my-12">
+                    <img src="https://images.unsplash.com/photo-1518780664697-55e3ad937233?auto=format&fit=crop&q=80&w=1200" alt="Modern detached home with a yard in a quiet NYC borough" class="w-full h-auto shadow-xl border border-gray-100">
+                    <blockquote class="mt-4 border-l-4 border-gold pl-6 py-2 bg-navy/5 text-navy italic font-serif text-sm">
+                        A modern detached home representative of the Midland Beach market, where recent infrastructure projects have stabilized values and attracted new first-time homebuyers.
+                    </blockquote>
+                </div>
 
-            <h2 class="text-3xl font-serif font-bold text-navy mt-12 mb-6">The Bronx: The Last Frontier</h2>
-            <p>The Bronx remains the most affordable borough, but gentrification in **Mott Haven** has pushed prices up. For true value, we look toward **Pelham Bay**. Bordering the city's largest park, Pelham Bay offers a high quality of life, low crime rates, and property values that are expected to appreciate significantly over the next 5 years as the Penn Station Access project nears completion.</p>
+                <h2 class="text-3xl font-serif font-bold text-navy mt-12 mb-6">The Bronx: The Transit-Rich Value Play</h2>
+                <h3 class="text-xl font-serif font-bold text-navy mt-10 mb-4">4. Pelham Bay: The Traditional Powerhouse</h3>
+                <p>Pelham Bay offers a rare combination: proximity to the nation’s largest urban park (Pelham Bay Park) and express subway access (6 train). The market here is defined by multi-generational families and exceptionally well-maintained brick facades. In 2026, we see this as a "Buy and Hold" zone for those seeking stability over rapid speculation.</p>
 
-            <h2 class="text-3xl font-serif font-bold text-navy mt-12 mb-6">Conclusion</h2>
-            <p>Navigating affordability requires a trade-off between square footage and commute time. However, in the 2026 market, neighborhoods like Woodhaven and Midland Beach prove that you don't have to leave the Five Boroughs to find a sanctuary you can afford.</p>
-        </article>
-        <aside id="sidebar" class="lg:col-span-4"></aside>
+                <div class="bg-navy text-white p-10 my-12 border-l-8 border-gold shadow-xl">
+                    <h4 class="text-gold font-bold uppercase tracking-widest text-xs mb-4 italic text-center">Market Snapshot: Price Per Square Foot (2026)</h4>
+                    <div class="grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
+                        <div><div class="text-2xl font-serif font-bold">$450</div><div class="text-[10px] uppercase text-slate">Woodhaven</div></div>
+                        <div><div class="text-2xl font-serif font-bold">$380</div><div class="text-[10px] uppercase text-slate">Midland Beach</div></div>
+                        <div><div class="text-2xl font-serif font-bold">$510</div><div class="text-[10px] uppercase text-slate">Pelham Bay</div></div>
+                        <div><div class="text-2xl font-serif font-bold">$420</div><div class="text-[10px] uppercase text-slate">Glen Oaks</div></div>
+                    </div>
+                </div>
+
+                <h2 class="text-3xl font-serif font-bold text-navy mt-12 mb-6">Conclusion: The 2026 Strategy</h2>
+                <p>Affordability in NYC is no longer about finding the "cheapest" property; it is about finding the highest "Life-ROI." By targeting neighborhoods like Woodhaven and Midland Beach, 2026 buyers are securing high-quality residential assets that offer both immediate lifestyle benefits and long-term equity growth. The outer boroughs are not a compromise; they are a strategic choice for the future of New York living.</p>
+                
+                <div class="mt-16 pt-10 border-t border-gray-100">
+                    <h4 class="text-[10px] font-bold uppercase tracking-[0.3em] text-slate mb-6">Share this intelligence</h4>
+                    <div class="flex flex-wrap gap-4">
+                        <a href="#" onclick="window.open('https://www.facebook.com/sharer/sharer.php?u=' + encodeURIComponent(window.location.href), '_blank'); return false;" class="px-6 py-3 border border-navy/10 text-[10px] font-bold uppercase tracking-widest text-navy hover:bg-navy hover:text-white hover:border-navy transition-all duration-300 flex items-center gap-2">
+                            <svg class="h-3 w-3" fill="currentColor" viewBox="0 0 24 24"><path d="M22.675 0h-21.35c-.732 0-1.325.593-1.325 1.325v21.351c0 .731.593 1.324 1.325 1.324h11.495v-9.294h-3.128v-3.622h3.128v-2.671c0-3.1 1.893-4.788 4.659-4.788 1.325 0 2.463.099 2.795.143v3.24l-1.918.001c-1.504 0-1.795.715-1.795 1.763v2.313h3.587l-.467 3.622h-3.12v9.293h6.116c.73 0 1.323-.593 1.323-1.325v-21.35c0-.732-.593-1.325-1.325-1.325z"/></svg>
+                            Facebook
+                        </a>
+                        <a href="#" onclick="window.open('https://twitter.com/intent/tweet?url=' + encodeURIComponent(window.location.href), '_blank'); return false;" class="px-6 py-3 border border-navy/10 text-[10px] font-bold uppercase tracking-widest text-navy hover:bg-navy hover:text-white hover:border-navy transition-all duration-300 flex items-center gap-2">
+                            <svg class="h-3 w-3" fill="currentColor" viewBox="0 0 24 24"><path d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.84 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"/></svg>
+                            Twitter
+                        </a>
+                        <a href="#" onclick="window.open('https://www.linkedin.com/sharing/share-offsite/?url=' + encodeURIComponent(window.location.href), '_blank'); return false;" class="px-6 py-3 border border-navy/10 text-[10px] font-bold uppercase tracking-widest text-navy hover:bg-navy hover:text-white hover:border-navy transition-all duration-300 flex items-center gap-2">
+                            <svg class="h-3 w-3" fill="currentColor" viewBox="0 0 24 24"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.225 0z"/></svg>
+                            LinkedIn
+                        </a>
+                    </div>
+                </div>
+            </article>
+            <aside id="sidebar" class="lg:col-span-4"></aside>
+        </div>
     </main>
 
     <footer id="global-footer" class="bg-navy text-white py-20 mt-auto"></footer>
+    <div id="floating-actions"></div>
     <div id="domain-modal" class="fixed inset-0 z-[100] flex items-center justify-center px-4 hidden"></div>
-
-    <div class="fixed bottom-6 right-6 z-40">
-        <button id="open-domain-popup" class="bg-gold hover:bg-yellow-600 text-navy font-bold py-3 px-6 rounded-full shadow-2xl flex items-center gap-2 border-2 border-white transition transform hover:scale-105">
-            <span class="relative flex h-3 w-3"><span class="animate-ping absolute h-full w-full rounded-full bg-navy opacity-75"></span><span class="relative rounded-full h-3 w-3 bg-navy"></span></span>
-            OWN THIS DOMAIN
-        </button>
-    </div>
+    <div id="search-modal" class="fixed inset-0 z-[100] flex items-center justify-center px-4 hidden"></div>
     <script src="main.js" type="module"></script>
 </body>
 </html>

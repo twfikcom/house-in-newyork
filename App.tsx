@@ -147,7 +147,7 @@ const App: React.FC = () => {
 
       <Footer />
 
-      {/* Sticky Domain Call to Action */}
+      {/* Sticky Call to Action */}
       <div className="fixed bottom-6 right-6 z-40">
         <button
           onClick={() => setIsPopupOpen(true)}
@@ -157,7 +157,7 @@ const App: React.FC = () => {
             <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-navy opacity-75"></span>
             <span className="relative inline-flex rounded-full h-3 w-3 bg-navy"></span>
           </span>
-          OWN THIS DOMAIN
+          OWN THIS WEBSITE
         </button>
       </div>
 

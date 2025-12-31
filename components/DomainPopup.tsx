@@ -33,15 +33,15 @@ const DomainPopup: React.FC<Props> = ({ isOpen, onClose }) => {
           
           <div className="space-y-6 text-gray-700 leading-relaxed mb-10">
             <p className="text-lg">
-              This premium digital asset is <span className="font-bold text-navy underline decoration-gold">15 years old</span> with a <span className="font-bold text-navy">0 Spam Score</span>.
+              This premium digital asset and authority website is <span className="font-bold text-navy underline decoration-gold">15 years old</span> with a <span className="font-bold text-navy">0 Spam Score</span>.
             </p>
             <p>
-              It possesses high and rapidly growing Domain Authority (DA) and Page Authority (PA). Perfect for SEO dominance in the hyper-competitive NYC real estate market.
+              It possesses high and rapidly growing Domain Authority (DA) and Page Authority (PA). Perfect for SEO dominance in the hyper-competitive NYC real estate market. Own the entire platform today.
             </p>
           </div>
 
           <div className="bg-gray-50 p-8 border border-gray-100 mb-10 text-left">
-            <h4 className="text-navy font-bold uppercase tracking-widest text-xs mb-4 text-center">Inquiry Details</h4>
+            <h4 className="text-navy font-bold uppercase tracking-widest text-xs mb-4 text-center">Acquisition Inquiry</h4>
             <div className="space-y-4">
               <div className="flex items-center gap-4">
                 <div className="bg-gold p-3 rounded text-navy">

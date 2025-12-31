@@ -42,9 +42,9 @@ const Contact: React.FC = () => {
               </div>
             </div>
             <div>
-              <h3 className="text-2xl font-serif text-navy mb-6">Domain Acquisition</h3>
+              <h3 className="text-2xl font-serif text-navy mb-6">Website Acquisition</h3>
               <p className="text-gray-600 text-sm leading-relaxed mb-6 italic">
-                Interested in owning Houseinnewyork.com? This 15-year-old premium domain is currently available for private acquisition.
+                Interested in owning Houseinnewyork.com and its entire content library? This 15-year-old premium authority platform is available for private acquisition.
               </p>
               <div className="bg-navy text-white p-6 rounded border-l-4 border-gold">
                 <p className="text-xs font-bold uppercase tracking-widest mb-2 text-gold">Status</p>

@@ -1,4 +1,3 @@
-
 import React from 'react';
 
 const Sidebar: React.FC = () => {
@@ -16,7 +15,7 @@ const Sidebar: React.FC = () => {
         </p>
         <div className="grid grid-cols-2 gap-2 text-[10px] uppercase font-bold tracking-widest">
           <div className="bg-slate/20 text-gold p-2 border border-gold/30">DA 45+</div>
-          <div className="bg-slate/20 text-gold p-2 border border-gold/30">0% Spam</div>
+          <div className="bg-slate/20 text-gold p-2 border border-gold/30">Clean Profile</div>
         </div>
       </div>
 

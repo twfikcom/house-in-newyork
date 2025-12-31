@@ -1,4 +1,3 @@
-
 import React from 'react';
 
 interface Props {
@@ -33,7 +32,7 @@ const DomainPopup: React.FC<Props> = ({ isOpen, onClose }) => {
           
           <div className="space-y-6 text-gray-700 leading-relaxed mb-10">
             <p className="text-lg">
-              This premium digital asset and authority website is <span className="font-bold text-navy underline decoration-gold">15 years old</span> with a <span className="font-bold text-navy">0 Spam Score</span>.
+              This premium digital asset and authority website is <span className="font-bold text-navy underline decoration-gold">15 years old</span> with an <span className="font-bold text-navy">Impeccable Historical Record</span>.
             </p>
             <p>
               It possesses high and rapidly growing Domain Authority (DA) and Page Authority (PA). Perfect for SEO dominance in the hyper-competitive NYC real estate market. Own the entire platform today.

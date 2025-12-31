@@ -73,7 +73,7 @@ function injectSharedUI() {
                     <p class="text-slate text-sm font-light leading-relaxed mb-8 uppercase tracking-widest">15YR ESTABLISHED AUTHORITY</p>
                     <div class="grid grid-cols-2 gap-3 text-[10px] uppercase font-bold tracking-[0.2em]">
                         <div class="bg-white/5 text-gold p-3 border border-gold/20 backdrop-blur-sm">DA 45+</div>
-                        <div class="bg-white/5 text-gold p-3 border border-gold/20 backdrop-blur-sm">SEO MOAT</div>
+                        <div class="bg-white/5 text-gold p-3 border border-gold/20 backdrop-blur-sm">CLEAN RECORD</div>
                     </div>
                 </div>
             </div>
